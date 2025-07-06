@@ -1,6 +1,7 @@
 .vscode
 .idea
 .cph
+.venv
 
 *.exe
 *.out

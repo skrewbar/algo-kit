@@ -10,8 +10,4 @@
 ## 개발 요구 사항
 
 - C++ 에디터 (VSCode, CLion 등)
-- gcc (gnu++23)
-- clangd
-- clang-format
-- clang-tidy
-- pre-commit
+- Docker
