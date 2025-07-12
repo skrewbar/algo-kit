@@ -3,7 +3,7 @@ FROM ubuntu
 WORKDIR /algo-kit
 
 RUN apt-get update \
-    && apt-get install -y git gcc-14 g++-14 gdb clangd pypy3 python3 python3-pip python3-venv \
+    && apt-get install -y git gcc-14 g++-14 gdb clangd clang-format pypy3 python3 python3-pip python3-venv \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
